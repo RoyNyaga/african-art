@@ -18,33 +18,34 @@ body{
 
 .nav-link{
 	color: #e2dcd9;
-
 }
 
 .nav-link:hover{
 	padding: 10px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #e2dcd9;
 	text-decoration: none;
-	color: black;
+	color: #e2dcd9;
 }
 
 .carousel-item{
 	height: 100%;
 	min-height: 300px;
+	position: relative;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background: red;
 }
 
 .carousel-caption{
-	bottom: 250px;
+	position: absolute;
+	top: 450px;
 }
 .carousel-caption h5{
-	font-size: 45px;
-	text-transform: uppercase;
+	font-size: 1.5em;
 	letter-spacing: 2px;
-	margin-top: 25px;
+	margin-top: 10px;
 	background: #1f2933b3;
+	padding: 10px;
+	display: inline-block;
 }
 
 .carousel-caption p{
