@@ -1,0 +1,56 @@
+/*####### navbar-header-carousel #######*/
+
+#navbar-wrapper-nav{
+	background: white;
+}
+
+.nav-link{
+	color: black;	
+}
+
+.nav-link:hover{
+	padding: 10px;
+	border-bottom: 2px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+.carousel-item{
+	height: 100%;
+	min-height: 300px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background: red;
+}
+
+.carousel-caption{
+	bottom: 250px;
+}
+.carousel-caption h5{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	background: #1f2933b3;
+}
+
+.carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	background: #1f2933b3;
+}
+
+.carousel-caption a{
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.w-100{
+	height: 100vh;
+}
