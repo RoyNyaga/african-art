@@ -1,7 +1,8 @@
 
 
-body{
+body {
 	font-family: 'Roboto Condensed', sans-serif;
+	background: #cec9c5! important;
 }
 
 /*####### navbar-header-carousel #######*/
@@ -67,4 +68,21 @@ body{
 
 .w-100{
 	height: 100vh;
+}
+
+/*############# Home ##############*/
+
+.promise-picture {
+	height: 600px;
+	background: url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670484/Epic-pic/IMG-20200428-WA0150_y7hfkk.jpg);
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 600px solid transparent;
+	border-right: 150px solid #cec9c5;
+}
+
+.promise-icons{
+	font-size: 3.5em;
 }
