@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def product
+  def collection
   end
 
   def about
