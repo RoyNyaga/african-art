@@ -1,0 +1,157 @@
+
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #cec9c5! important;
+}
+
+/*####### navbar-header-carousel #######*/
+
+#navbar-wrapper-nav{
+	background: #2d241d8a;
+	color: white;
+}
+
+.navbar-brand {
+	color: #e2dcd9;
+	font-family: 'Monoton', cursive;
+}
+
+.navbar-brand:hover {
+	color: orange;
+}
+
+.nav-link{
+	color: #e2dcd9;
+}
+
+.nav-link:hover{
+	padding: 10px;
+	border-bottom: 2px solid #e2dcd9;
+	text-decoration: none;
+	color: #e2dcd9;
+}
+
+.carousel-item{
+	height: 100%;
+	min-height: 300px;
+	position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 450px;
+}
+.carousel-caption h5{
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	background: #1f2933b3;
+	padding: 10px;
+	display: inline-block;
+}
+
+.carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	background: #1f2933b3;
+}
+
+.carousel-caption a{
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.w-100{
+	height: 100vh;
+}
+
+/*############# Home ##############*/
+
+.promise-picture {
+	height: 600px;
+	background: url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670484/Epic-pic/IMG-20200428-WA0150_y7hfkk.jpg);
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 600px solid transparent;
+	border-right: 150px solid #cec9c5;
+}
+
+.promise-icons{
+	font-size: 3.5em;
+}
+
+.my-card{
+	box-shadow: 0px 10px 20px #904f36;
+}
+
+/*########################## collection page ###############*/
+.photo-frame{
+	border: 4px solid orange;
+	overflow: hidden;
+	box-shadow: 0px 10px 20px #904f36;
+}
+
+.photo-frame img {
+	transition: transform 2s ease-in-out;
+}
+
+.photo-frame img:hover{
+	transform: scale(1.3);
+}
+
+/*####### About ########*/
+.about-small{
+	font-size: 0.7em;
+}
+
+.badge{
+	background: orange;
+	color: white;
+	margin: 5px;
+}
+
+
+/*############### absolute-contact-button ###################*/
+#absolute-contact-button{
+	background: #554037;
+	color: #b4b3af;
+	position: fixed;
+	padding: 20px;
+	top: 90%;
+	left: 90%;
+	border: 2px solid #fd7e13;
+	border-radius: 50%;
+	transition: all 1s ease-in-out;
+}
+
+#absolute-contact-button:hover{
+	color: #fd7e13;
+	text-decoration: none;
+}
+
+#absolute-contact-button-phone{
+	background: #554037;
+	color: #b4b3af;
+	position: fixed;
+	padding: 10px;
+	top: 88%;
+	left: 70%;
+	border: 2px solid #fd7e13;
+	border-radius: 50%;
+	font-size: 0.8em;
+}
+
+#absolute-contact-button-phone:hover {
+	color: #fd7e13;
+}
